@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+printf("Enter a number from 1 to 5");
+int choice=0;
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:
+printf("you have choosen pasta\n Rs.300");
+break;
+case 2:
+printf("you have choosen noodles\n Rs.123");
+break;
+case 3:
+printf("you have choosen eggs\n Rs.100");
+break;
+case 4:
+printf("you have choosen parota\n Rs.320");
+break;
+case 5:
+printf("you have choosen rice\n Rs.200");
+break;
+default:
+printf("you have choosen wrong option");
+}
+}
